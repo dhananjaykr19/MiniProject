@@ -187,11 +187,88 @@ html, body{
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 2vw 5vw;
+    
 }
 
 #page2-part1{
     height: 100%;
+    width: 50%;
+    background-image: url(https://images.unsplash.com/photo-1526510747491-58f928ec870f?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+#page2-part1 h1{
+    position: absolute;
+    left: 0;
+    bottom: -7%;
+}
+
+#page2-part2{
+    height: 100%;
+    width: 45%;
+}
+#page2-part2 img{
+    height: 70%;
+    width: 100%;
+    object-fit: cover;
+}
+#text{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+#lefttext{
+    padding: 20px 200px 8px 2px;
+    height: 100%;
+    width: 50%;
+
+}
+#righttext{
+    height: 100%;
+    width: 50%;
+    padding: 20px 150px 8px 2px;
+}
+
+#page3{
+    width: 100%;
+    height: 100%;
+    padding: 2.6vw 2.7vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3vw;
+}
+#page3-left{
     width: 40%;
-    background-image: url();
+    height: 70%;
+    padding: 5vw 7vw;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+#page3-left img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#page3-left h4{
+    position: absolute;
+    align-items: center;
+    bottom: 0;
+    left: 25%;
+}
+
+#page3-right{
+    width: 50%;
+    height: 90%;
+    background-image: url(https://images.unsplash.com/photo-1513379733131-47fc74b45fc7?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    margin-right: 3vw;
 }
